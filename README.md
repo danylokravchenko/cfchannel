@@ -64,6 +64,7 @@ assert(isNull(rx.recv()));
 ```
 
 MPSC channels are created for concurrent usage and code below show simple example:
+
 ```js
 var channel = new Channel();
 var tx = channel.getSender();
@@ -83,6 +84,16 @@ thread action="run" name="#CreateUUID()#" rx = "#rx#" {
 }
 ```
 
+ColdBox module example:
+
+```js
+// Inject cfchannel module
+property name="cfchannel" inject="cfchannel@cfchannel";
+var channel = cfchannel.init();
+var sender = channel.getSender();
+// ...
+
+```
 
 
 

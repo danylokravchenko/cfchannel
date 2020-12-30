@@ -33,7 +33,7 @@ component {
     */
     function onLoad() {
         // Map Library
-        binder.map("cfchannel@cfchannel").to("#moduleMapping#.cfchannel").initWith();
+        binder.map("cfchannel@cfchannel").to("#moduleMapping#.Channel").noInit();
     }
 
     /**
