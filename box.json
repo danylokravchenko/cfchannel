@@ -12,7 +12,7 @@
     "type":"modules",
     "repository":{
         "type":"git",
-        "URL":"https://github.com/undeadbigunicorn/cfchannel.git"
+        "URL":"https://github.com/undeadbigunicorn/cfchannel"
     },
     "bugs":"https://github.com/undeadbigunicorn/cfchannel/issues",
     "shortDescription":"MPSC channel implementation in CFML",
@@ -26,8 +26,7 @@
     ],
     "scripts":{
         "postVersion":"package set location='undeadbigunicorn/cfchannel#v`package version`'",
-        "onRelease":"publish",
-        "postPublish":"!git push --follow-tags"
+        "onRelease":"publish"
     },
     "private":"false",
     "devDependencies":{

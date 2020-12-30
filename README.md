@@ -12,7 +12,7 @@ This module introduces MPSC channels for CFML.
 
 ## Authors
 
-Developed by Danylo Kravchenko (aka UndeadBigUnicorn)
+Developed by Danylo Kravchenko
 
 - https://github.com/UndeadBigUnicorn
 - kravchel16@gmail.com
