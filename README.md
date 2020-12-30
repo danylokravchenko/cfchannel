@@ -79,7 +79,7 @@ thread action="run" name="#CreateUUID()#" tx = "#tx#" {
 // create new thread to receive values
 thread action="run" name="#CreateUUID()#" rx = "#rx#" {
     // execute a function for each item in the channel
-    rx.forEach((item) => WriteLog(type="information", file="xquestions", text="#item#"));
+    rx.forEach((item) => WriteLog(type="information", text="#item#"));
 }
 ```
 
