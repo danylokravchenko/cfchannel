@@ -63,7 +63,7 @@ tx.close();
 assert(isNull(rx.recv()));
 ```
 
-MPSC channels are created for concurrent usage and example below show simple example:
+MPSC channels are created for concurrent usage and code below show simple example:
 ```js
 var channel = new Channel();
 var tx = channel.getSender();
