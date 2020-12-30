@@ -1,10 +1,10 @@
 {
     "name":"cfchannel",
     "slug":"cfchannel",
-    "version":"0.1.1",
-    "date":"2020-12-31",
+    "version":"0.1.2",
+    "date":"2020-12-30",
     "author":"Danylo Kravchenko <kravchel16@gmail@gmail.com>",
-    "location":"undeadbigunicorn/cfchannel#v0.1.0",
+    "location":"undeadbigunicorn/cfchannel#v0.1.2",
     "directory":"",
     "createPackageDirectory":"true",
     "homepage":"https://github.com/undeadbigunicorn/cfchannel",
