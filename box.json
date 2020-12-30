@@ -1,0 +1,39 @@
+{
+    "name":"cfchannel",
+    "slug":"cfchannel",
+    "version":"0.1.0",
+    "date":"2020-12-31",
+    "author":"Danylo Kravchenko <kravchel16@gmail@gmail.com>",
+    "location":"undeadbigunicorn/cfchannel#v0.1.0",
+    "directory":"",
+    "createPackageDirectory":"true",
+    "homepage":"https://github.com/undeadbigunicorn/cfchannel",
+    "documentation":"https://github.com/undeadbigunicorn/cfchannel",
+    "type":"modules",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/undeadbigunicorn/cfchannel.git"
+    },
+    "bugs":"https://github.com/undeadbigunicorn/cfchannel/issues",
+    "shortDescription":"MPSC channel implementation in CFML",
+    "keywords":[
+        "channel",
+        "async",
+        "synchronization",
+        "multithreaded",
+        "concurrent",
+        "unbounded"
+    ],
+    "scripts":{
+        "postVersion":"package set location='undeadbigunicorn/cfchannel#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    },
+    "private":"false",
+    "devDependencies":{
+        "testbox":"^4.1.0+384"
+    },
+    "installPaths":{
+        "testbox":"testbox"
+    }
+}
